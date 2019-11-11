@@ -1,0 +1,100 @@
+.content
+  padding: 101px 0
+  @media (max-width: 992px)
+    padding: 50px 0
+  @media (max-width: 576px)
+    padding: 20px 0
+  &-wrapper
+    display: flex
+    justify-content: space-between
+  &-block
+    display: flex  
+    flex-basis: 41%
+    padding: 32px 0 45px 0
+    flex-direction: column
+    @media (max-width: 992px)
+      flex-basis: 100%
+      padding: 0
+  &-img  
+    flex-basis: 51.283%
+    background: url("https://s3-alpha-sig.figma.com/img/70f5/d3ba/5e02a79e2ac26afd7f8c0a11643fa087?Expires=1574035200&Signature=hv0fKBFjVNhLlTk0Y7XWJKH~A9W3N4n3FkzXnHoPR8y3Yl~Fjsnimj~qCykkSz6r5dNM01a58i28oMaugnKDBnyaTyrjYWExnLvMRRaJNL8j~WyDpg-E5jkZYjqiv36m5RHPFLItY2QMfO8q5qMUJYaIn9~sZp-mb8DfgC9K7FGDztEnZU~EwrkfltUIgzrU2nyhsr8eriAR-sg8hhY5Kgm1U--Wb2GFajxol10Bj3aFeqlnwtUq86F1OBswcfq7dyb~wdXYiETYlCTJxSnWCKVZP11qBupS7prdoUT2umDSodGQ9vxmb6FvtxvDbO5Jy7jXK-e-rqSwRaJypup-5g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") no-repeat
+    background-size: cover
+    background-position: center center
+    img
+      width: 100%
+      height: auto
+.mobile
+   @media (max-width: 992px)
+      display: none      
+.block
+  &-function
+    display: flex      
+  &__btn
+    max-width: 196px  
+    padding: 15px 28px 15px 28px
+    transition: all .3s ease-in-out
+    line-height: 23px
+    border: none
+    &:hover
+      background: lighten($bg-second-color, 5%)
+      cursor: pointer
+  &__timer
+    display: flex    
+    justify-content: center
+    align-items: center
+    padding: 0 25px
+    color: $bg-second-color
+    font-style: normal
+    font-weight: normal
+    font-size: 22px
+    line-height: 26px
+    
+  &-text  
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-content: center
+    &__title
+      font-size: 90px
+      line-height: 108px
+      padding-bottom: 24px
+      @media (max-width: 992px)
+        font-size: 80px
+        line-height: 90px
+      @media (max-width: 768px)
+        font-size: 64px
+        line-height: 74px
+      @media (max-width: 576px)
+        font-size: 54px
+        line-height: 60px
+    &__subtitle
+      font-size: 32px  
+      padding-bottom: 25px
+      @media (max-width: 992px)
+        font-size: 28px
+      @media (max-width: 768px)
+        font-size: 24px
+      @media (max-width: 576px)
+        font-size: 22px
+    &__description
+      font-size: 22px
+      font-style: normal
+      font-weight: normal
+
+      line-height: 29px
+      padding-bottom: 25px
+      @media (max-width: 992px)
+        font-size: 20px
+      @media (max-width: 768px)
+        font-size: 18px
+      span
+        text-decoration: underline
+      &-small
+        font-size: 15px
+        line-height: 22px
+        color: #828282
+        padding-bottom: 48px
+        @media (max-width: 768px)
+          padding-bottom: 28px
+          
+      
